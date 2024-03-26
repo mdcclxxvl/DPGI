@@ -1,0 +1,16 @@
+﻿<Window x:Class="Task5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas Background="Cyan">
+            <Label Canvas.Top="30" Canvas.Left="30">Label</Label>
+            <TextBox Canvas.Top="50" Canvas.Left="50">TextBox</TextBox>
+            <Button Canvas.Top="70" Canvas.Left="70">Button</Button>
+        </Canvas>
+    </Grid>
+</Window>
